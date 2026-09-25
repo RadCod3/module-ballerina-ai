@@ -3,7 +3,7 @@ CVE-2021-0341
 
 # io.opentelemetry:opentelemetry-api 1.32.0 (opentelemetry-api-1.32.0.jar)
 # Transitive dependency of the Ballerina platform itself, not of this package:
-# ai-native -> org.ballerinalang:ballerina-lang:2201.12.0 -> ballerina-runtime -> opentelemetry-api:1.32.0.
+# ai-native -> org.ballerinalang:ballerina-lang:2201.13.6 -> ballerina-runtime -> opentelemetry-api:1.32.0.
 # It is not declared in Ballerina.toml and is not packed into the bala; at runtime it is
 # provided by the Ballerina distribution. The fix (1.62.0) must come from a
 # ballerina-lang/distribution upgrade and cannot be applied in this repository.
