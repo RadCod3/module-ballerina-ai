@@ -57,7 +57,9 @@ public class EndpointMetadataTask implements CompilerLifecycleTask<CompilerLifec
         }
     }
 
-    // The endpoint metadata API is only available from Ballerina 2201.13.6 onwards, hence it is invoked reflectively
+    // The endpoint metadata API is only available from Ballerina 2201.13.6 onwards. Package resolution does not enforce
+    // the patch version of the distribution, so it is invoked reflectively to report a warning instead of failing on
+    // earlier 2201.13.x versions
     private void addEndpointMetadata(CompilerLifecycleEventContext context, Endpoint endpoint)
             throws ReflectiveOperationException {
         Class<?> endpointMetaInfoClass = Class.forName(ENDPOINT_META_INFO_CLASS);

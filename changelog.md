@@ -8,7 +8,7 @@ This file documents all significant changes made to the Ballerina AI package acr
 - [Fix AI Agent Chat Services Not Being Exported with the `--export-endpoints` Build Option](https://github.com/wso2/product-integrator/issues/2572)
 
 ### Changed
-- The minimum supported Ballerina distribution is now 2201.13.3. Exporting endpoints requires Ballerina 2201.13.6 or above.
+- The minimum supported Ballerina distribution is now 2201.13.6.
 
 ## [1.15.0] - 2026-09-09
 
